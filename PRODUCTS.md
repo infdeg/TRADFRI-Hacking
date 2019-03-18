@@ -185,5 +185,18 @@ TRÅDFRI Module pinout (incomplete):
 * PB1: PWM2
 * PB13: PWM1
 
+### L1527 (FLOALT 30x30)
+
+Details:
+
+* Potted: no
+* 12.5W power supply/controller: PWIC012V24P
+
+TRÅDFRI module pinout:
+
+* PA1: PWM for red (2200K) channel, from TIM1 CH0
+* PB12: PWM for blue (4000K) channel, from TIM1 CH1
+* other GPIO pads may be brought out from the module, but they're unused
+
 [Source](https://tweakers.net/nieuws/135893/ikea-komt-met-leddriver-om-geintegreerde-verlichting-slim-te-maken.html)
 [Source](https://imgur.com/gallery/bDTRQ)
